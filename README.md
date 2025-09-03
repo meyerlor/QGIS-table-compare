@@ -4,7 +4,7 @@
 
 Table Compare is a powerful QGIS plugin that enables visual comparison of two vector layers or tables with similar structures. Perfect for version control, data auditing, and change detection workflows, this plugin highlights differences between datasets with intuitive color coding and detailed change tracking.
 
-![Plugin Interface](screenshot/Screen_1.jpg)
+![Plugin Interface](screenshot/screen_1.jpg)
 
 ## Key Features
 
