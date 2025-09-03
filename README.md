@@ -77,5 +77,3 @@ Table Compare is a powerful QGIS plugin that enables visual comparison of two ve
 - Data migration projects
 - Collaborative mapping projects
 - Organizations requiring change documentation and approval workflows
-
-Transform your data comparison workflow from tedious manual checking to efficient visual analysis with Table Compare!
