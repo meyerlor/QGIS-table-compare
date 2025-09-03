@@ -1,0 +1,19 @@
+# metadata.txt
+[general]
+name=Table Compare
+qgisMinimumVersion=3.0
+description=Compare two tables and highlight differences with color coding
+version=1.0
+author=Your Name
+email=your.email@example.com
+about=This plugin allows you to compare two vector layers with the same structure and visualize the differences. Features can be marked as Added (green), Deleted (red), Modified (yellow), or Unchanged (white). Individual field changes are highlighted in darker colors.
+tracker=https://github.com/yourusername/qgis-table-compare
+repository=https://github.com/yourusername/qgis-table-compare
+hasProcessingProvider=no
+changelog=1.0 - Initial release with basic comparison functionality
+tags=python,table,compare,diff,analysis
+homepage=https://github.com/yourusername/qgis-table-compare
+category=Analysis
+icon=icon.png
+experimental=True
+deprecated=False
