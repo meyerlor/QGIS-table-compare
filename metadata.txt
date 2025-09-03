@@ -1,19 +1,59 @@
-# metadata.txt
+# metadata.txt for QGIS Plugin Repository
+
 [general]
 name=Table Compare
 qgisMinimumVersion=3.0
-description=Compare two tables and highlight differences with color coding
-version=1.0
-author=Your Name
-email=your.email@example.com
-about=This plugin allows you to compare two vector layers with the same structure and visualize the differences. Features can be marked as Added (green), Deleted (red), Modified (yellow), or Unchanged (white). Individual field changes are highlighted in darker colors.
-tracker=https://github.com/yourusername/qgis-table-compare
-repository=https://github.com/yourusername/qgis-table-compare
-hasProcessingProvider=no
-changelog=1.0 - Initial release with basic comparison functionality
-tags=python,table,compare,diff,analysis
-homepage=https://github.com/yourusername/qgis-table-compare
+qgisMaximumVersion=3.99
+description=Visual comparison tool for vector layers and tables with change detection, filtering, and export capabilities
+about=Table Compare is a powerful plugin that enables visual comparison of two vector layers or tables with similar structures. Perfect for version control, data auditing, and change detection workflows. Features include color-coded difference visualization (Added/Deleted/Modified/Unchanged), field-level change tracking with old→new value display, flexible filtering options, accept/reject workflow for changes, smart column selection to ignore system fields, CSV export with decision tracking, custom join field selection, and sortable results with dynamic row numbering. Ideal for GIS analysts, data managers, quality assurance teams, and collaborative mapping projects requiring change documentation and approval workflows.
+
+version=1.0.0
+author=Lorenz Meyer
+email=meyer@gisgeometer.de
+
+# Repository and issue tracking
+tracker=https://github.com/meyerlor/QGIS-table-compare/issues
+repository=https://github.com/meyerlor/QGIS-table-compare
+homepage=https://github.com/meyerlor/QGIS-table-compare
+
+# Plugin classification
 category=Analysis
+tags=python,table,compare,diff,analysis,version-control,data-quality,change-detection,audit,merge,sync
+
+# Plugin icon (24x24 PNG)
 icon=icon.png
-experimental=True
+
+# Plugin status
+experimental=False
 deprecated=False
+
+# Processing provider
+hasProcessingProvider=no
+
+# Changelog
+changelog=
+    1.0.0 - Initial release
+        * Visual comparison of vector layers with color coding
+        * Field-level change detection with old→new display
+        * Status filtering (Added/Deleted/Modified/Unchanged)
+        * Smart column selection to exclude system fields
+        * Accept/reject workflow for changes
+        * CSV export with decision tracking
+        * Custom join field selection
+        * Sortable results with dynamic row numbering
+        * Multi-row selection for batch operations
+        * Intelligent handling of data types and null values
+
+# Plugin requirements and compatibility
+server=False
+plugin_dependencies=
+
+# Additional metadata for repository
+license=GPL-2.0-or-later
+license_file=LICENSE
+
+# Documentation
+help_url=https://github.com/meyerlor/QGIS-table-compare/blob/main/README.md
+
+# Minimum requirements
+python_minimum=3.6
